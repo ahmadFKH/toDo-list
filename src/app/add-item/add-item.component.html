@@ -1,3 +1,7 @@
 <form class="example-form">
-    <input placeholder="new item" [(ngModel)] = "text" name = "item">  <br> <button mat-raised-button color="primary" (click) = "addItem()">Add Item</button>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="new item" [(ngModel)] = "text" name = "item"> 
+  </mat-form-field>
+    <button mat-raised-button color="primary" (click) = "addItem()">Add Item</button>
+    
 </form>

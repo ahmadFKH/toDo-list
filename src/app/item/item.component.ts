@@ -20,7 +20,7 @@ export class ItemComponent implements OnInit {
     this.listService.deleteFromList(item);
   }
   checked(e,item) {
-    if(e.target.checked) {
+    if(e.checked) {
       this.listService.addCompleted(1, item);
     } else {
       this.listService.addCompleted(-1, item);

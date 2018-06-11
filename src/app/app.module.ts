@@ -13,6 +13,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { MatToolbarModule} from '@angular/material/toolbar';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MatToolbarModule} from '@angular/material/toolbar';
     MatFormFieldModule,
     MatCardModule,
     FormsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    BrowserAnimationsModule
   ],
   providers: [ListService],
   bootstrap: [AppComponent]
