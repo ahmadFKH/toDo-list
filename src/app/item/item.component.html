@@ -1,0 +1,4 @@
+<mat-card-content>
+  <input type="checkbox" class="example-margin" (change) = "checked($event, item)">{{ item.text }}
+  <button mat-mini-fab color="warn" (click)="deleteItem(item)">Delete</button>
+</mat-card-content>
